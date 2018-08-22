@@ -179,7 +179,7 @@ div#container h3.page_title {
 
 div#works {
   margin-top: 10px;
-  overflow: visible!important;
+  overflow: visible !important;
   width: 725px;
 }
 
@@ -333,7 +333,7 @@ h4.blue {
 
 .one_half {
   float: left;
-  width: 50%
+  width: 50%;
 }
 
 .one_third {
@@ -418,7 +418,7 @@ ul li {
 }
 
 a:link, a:visited {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 input, textarea, button {
@@ -427,7 +427,7 @@ input, textarea, button {
   float: left;
   font-style: italic;
   margin-bottom: 1px;
-  padding: 10px
+  padding: 10px;
 }
 
 input {
@@ -459,37 +459,44 @@ div.page img {
 }
 
 a#logo:hover, a.facebook:hover, a.twitter:hover, a.linkedin:hover, a.dribbble:hover, div.image_gallery img:hover {
-	opacity:.5
+  opacity: 0.5;
 }
 
 fieldset#contact_form button, .right {
-	float:right
+  float: right
 }
+
 div.misc a, a:hover {
-	text-decoration:none
+  text-decoration: none;
 }
+
 div.blogpost a.readmore:hover, ul.pagination a:hover, ul.pagination a.active_page {
-	/*background:url(./images/bg/50.png);*/
-	color:#FFF
+  /* background:url(./images/bg/50.png); */
+  color: #fff
 }
+
 ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.tab_menu li.active {
-	background:#8f8f8f;
-	color:#FFF
+  background: #8f8f8f;
+  color: #fff;
 }
+
 .knob {
-	color: White !important;
-	text-shadow:1px 1px 0px #0d4667;
-	font-size:25px !important;
+  color: White !important;
+  text-shadow: 1px 1px 0 #0d4667;
+  font-size: 25px !important;
 }
+
 .clearfix {
-	float: none;
-	clear: both;
+  float: none;
+  clear: both;
 }
+
 .prev {
-	position:absolute;
-	margin-left:-5px;
-	margin-top: 20px;
+  position: absolute;
+  margin-left: -5px;
+  margin-top: 20px;
 }
+
 .next {
 	position:absolute;
 	margin-left: 680px;
